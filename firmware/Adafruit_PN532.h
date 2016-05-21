@@ -29,7 +29,7 @@
 
 #include "application.h"
 
-#define PN532_MODE (PN532_I2C_MODE) // Set to PN532_SPI_MODE or PN532_I2C_MODE
+#define PN532_MODE (PN532_SPI_MODE) // Set to PN532_SPI_MODE or PN532_I2C_MODE
 // The above PN532_MODE is a conditional build parameter used to optimize FLASH
 // memory usage.
 #define PN532_HW_SPI (1)    // Set to 1 for Hardware SPI and 0 for Software SPI
